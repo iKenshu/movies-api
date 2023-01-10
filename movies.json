@@ -1,0 +1,276 @@
+[
+    {
+        "pk": 1,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "Top Gun: Maverick",
+            "synopsis": "After more than thirty years of service as one of the Navy's top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
+            "rating": 8.3,
+            "director": "Joseph Kosinski",
+            "created_by": 1,
+            "slug": "top-gun-maverick"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "Guillermo del Toro's Pinocchio",
+            "synopsis": "During the rise of fascism in Mussolini's Italy, a wooden boy brought magically to life struggles to live up to his father's expectations.",
+            "rating": 7.7,
+            "director": "Guillermo del Toro",
+            "created_by": 1,
+            "slug": "guillermo-del-toros-pinocchio"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "The Menu",
+            "synopsis": "A young couple travels to a remote island to eat at an exclusive restaurant where the chef has prepared a lavish menu, with some shocking surprises.",
+            "rating": 7.4,
+            "director": "Mark Mylod",
+            "created_by": 1,
+            "slug": "the-menu"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "Everything Everywhere All at Once",
+            "synopsis": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.",
+            "rating": 8.1,
+            "director": "Daniel Kwan",
+            "created_by": 1,
+            "slug": "everything-everywhere-all-at-once"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "Terrifier",
+            "synopsis": "On Halloween night, a young woman finds herself as the obsession of a sadistic murderer known as Art the Clown.",
+            "rating": 5.6,
+            "director": "Damien Leone",
+            "created_by": 1,
+            "slug": "terrifier"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "The Black Phone",
+            "synopsis": "Finney Blake, a shy but clever 13-year-old boy, is abducted by a sadistic killer and trapped in a soundproof basement where screaming is of little use. When a disconnected phone on the wall begins to ring, Finney discovers that he can hear the voices of the killer’s previous victims. And they are dead set on making sure that what happened to them doesn’t happen to Finney.",
+            "rating": 6.9,
+            "director": "Scott Derrickson",
+            "created_by": 1,
+            "slug": "the-black-phone"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "BARDO, False Chronicle of a Handful of Truths",
+            "synopsis": "A renowned Mexican journalist and documentary filmmaker living in Los Angeles, after being named the recipient of a prestigious international award, is compelled to return to his native country, unaware that this simple trip will push him to an existential limit.",
+            "rating": 6.9,
+            "director": "Alejandro González Iñárritu",
+            "created_by": 1,
+            "slug": "bardo-false-chronicle-of-a-handful"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "The Whale",
+            "synopsis": "A reclusive English teacher suffering from severe obesity attempts to reconnect with his estranged teenage daughter for one last chance at redemption.",
+            "rating": 8.1,
+            "director": "Darren Aronofsky",
+            "created_by": 1,
+            "slug": "the-whale"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "Don't Worry Darling",
+            "synopsis": "Alice and Jack are lucky to be living in the idealized community of Victory, the experimental company town housing the men who work for the top-secret Victory Project and their families. But when cracks in their idyllic life begin to appear, exposing flashes of something much more sinister lurking beneath the attractive façade, Alice can’t help questioning exactly what they’re doing in Victory, and why.",
+            "rating": 6.2,
+            "director": "Olivia Wilde",
+            "created_by": 1,
+            "slug": "dont-worry-darling"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "Triangle of Sadness",
+            "synopsis": "We try to add new providers constantly but we couldn't find an offer for 'Triangle of Sadness' online. Please come back again soon to check if there's something new.",
+            "rating": 7.5,
+            "director": "Ruben Östlund",
+            "created_by": 1,
+            "slug": "triangle-of-sadness"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "The Woman King",
+            "synopsis": "The story of the Agojie, the all-female unit of warriors who protected the African Kingdom of Dahomey in the 1800s with skills and a fierceness unlike anything the world has ever seen, and General Nanisca as she trains the next generation of recruits and readies them for battle against an enemy determined to destroy their way of life.",
+            "rating": 6.7,
+            "director": "Gina Prince-Bythewood",
+            "created_by": 1,
+            "slug": "the-woman-king"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "Roald Dahl's Matilda the Musical",
+            "synopsis": "An extraordinary young girl discovers her superpower and summons the remarkable courage, against all odds, to help others change their stories, whilst also taking charge of her own destiny. Standing up for what's right, she's met with miraculous results.",
+            "rating": 7.2,
+            "director": "Matthew Warchus",
+            "created_by": 1,
+            "slug": "matilda-musical"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "Sing 2",
+            "synopsis": "Buster and his new cast now have their sights set on debuting a new show at the Crystal Tower Theater in glamorous Redshore City. But with no connections, he and his singers must sneak into the Crystal Entertainment offices, run by the ruthless wolf mogul Jimmy Crystal, where the gang pitches the ridiculous idea of casting the lion rock legend Clay Calloway in their show. Buster must embark on a quest to find the now-isolated Clay and persuade him to return to the stage.",
+            "rating": 7.4,
+            "director": "Garth Jennings",
+            "created_by": 1,
+            "slug": "sing-2"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "Stutz",
+            "synopsis": "In candid conversations with actor Jonah Hill, leading psychiatrist Phil Stutz explores his early life experiences and unique, visual model of therapy.",
+            "rating": 7.9,
+            "director": "Jonah Hill",
+            "created_by": 1,
+            "slug": "stutz"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "The Good Nurse",
+            "synopsis": "Suspicious that her colleague is responsible for a series of mysterious patient deaths, a nurse risks her own life to uncover the truth.",
+            "rating": 6.8,
+            "director": "Tobias Lindholm",
+            "created_by": 1,
+            "slug": "the-good-nurse"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "Joker",
+            "synopsis": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+            "rating": 8.4,
+            "director": "Todd Phillips",
+            "created_by": 1,
+            "slug": "joker"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "Interstellar",
+            "synopsis": "Interstellar chronicles the adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+            "rating": 8.6,
+            "director": "Christopher Nolan",
+            "created_by": 1,
+            "slug": "interstellar"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "1917",
+            "synopsis": "At the height of the First World War, two young British soldiers must cross enemy territory and deliver a message that will stop a deadly attack on hundreds of soldiers.",
+            "rating": 8.2,
+            "director": "Sam Mendes",
+            "created_by": 1,
+            "slug": "1917"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "Inception",
+            "synopsis": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: 'inception', the implantation of another person's idea into a target's subconscious.",
+            "rating": 8.8,
+            "director": "Christopher Nolan",
+            "created_by": 1,
+            "slug": "inception"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "The Shawshank Redemption",
+            "synopsis": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+            "rating": 9.3,
+            "director": "Frank Darabont",
+            "created_by": 1,
+            "slug": "the-shawshank-redemption"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "La La Land",
+            "synopsis": "Mia, an aspiring actress, serves lattes to movie stars in between auditions and Sebastian, a jazz musician, scrapes by playing cocktail party gigs in dingy bars, but as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart.",
+            "rating": 8.0,
+            "director": "Damien Chazelle",
+            "created_by": 1,
+            "slug": "la-la-land"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "movies.Collection",
+        "fields": {
+            "name": "My collection",
+            "is_private": false,
+            "movies": [1, 5, 6, 7, 12],
+            "user": 1
+        }
+    },
+    {
+        "pk": 2,
+        "model": "movies.Collection",
+        "fields": {
+            "name": "damn movies",
+            "is_private": true,
+            "movies": [18, 15],
+            "user": 1
+        }
+    }
+]
+
+
