@@ -30,14 +30,21 @@ Ahora ejecutaremos un comando para cargar la base de datos con algo de informaci
 **Movies**
 
 `/movies/ GET` Lista todas las películas disponibles.
+
 `/movies/collections/ GET` Muestra todas las colecciones públicas de los usuarios.
-`/movies/my-collections/ GET` Muestra todas las colecciones públicas y privadas creadas por el usuario. Recibe token de autenticación.
+
+`/movies/my-collections/ GET` Muestra todas las colecciones públicas y privadas creadas porel usuario. Recibe token de autenticación.
+
 `/movies/my-collections-private/ GET` Muestra todas las colecciones privadas creadas por el usuario. Recibe token de autenticación.
+
 `/movies/my-collections/create POST` Crea una colección. Recibe token de autenticación.
+
 `/movies/my-collections/:id/ GET` Muestra solo una colección creada por el usuario. Recibe el ID de la colección.
+
 `/movies/my-collections/:id/edit/ PATCH` URL para editar nombre, películas o su privacidad. Recibe el ID de la colección.
 
 **Users**
 
 `/users/register/` Para crear un nuevo usuario, necesita email, contraseña y confirmación de contraseña. Responderá con el email creado exitosamente.
+
 `/users/login/` Para iniciar sesión con una cuenta existente, necesita email y password. Responderá con un token de autenticación.
