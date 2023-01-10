@@ -20,10 +20,12 @@ class MovieList(ListAPIView):
 class CollectionList(ListAPIView):
     queryset = Collection.objects.filter(is_private=False)
     serializer_class = CollectionSerializer
+    permission_classes = [IsAuthenticated]
 
 
 class MyCollectionList(ListAPIView):
     serializer_class = CollectionSerializer
+    permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
         user = self.request.user
@@ -33,6 +35,7 @@ class MyCollectionList(ListAPIView):
 
 class MyPrivateCollectionList(ListAPIView):
     serializer_class = CollectionSerializer
+    permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
         user = self.request.user
@@ -55,3 +58,4 @@ class CollectionUpdate(UpdateAPIView):
 class CollectionDetail(RetrieveAPIView):
     queryset = Collection.objects.all()
     serializer_class = CollectionSerializer
+    permission_classes = [IsAuthenticated]
