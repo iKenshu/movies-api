@@ -20,7 +20,6 @@ class MovieList(ListAPIView):
 class CollectionList(ListAPIView):
     queryset = Collection.objects.filter(is_private=False)
     serializer_class = CollectionSerializer
-    permission_classes = [IsAuthenticated]
 
 
 class MyCollectionList(ListAPIView):
