@@ -25,6 +25,8 @@ Ahora ejecutaremos un comando para cargar la base de datos con algo de informaci
 
 `docker-compose exec web python manage.py loaddata movies.json`
 
+Después de esto, podrás entrar a la siguiente URL http://127.0.0.1:8000/movies
+
 ## URLs
 
 **Movies**
